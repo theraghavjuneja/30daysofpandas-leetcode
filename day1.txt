@@ -1,0 +1,21 @@
+LET'S FIRSTLY UNDERSTAND THE INITUTION USED IN THIS APPROACH
+SO FIRSTLY THERE ARE 3 THINGS
+THING-1
+df.col_name >any_value  OR df["col_name"]>any_value
+SO THIS STATEMENT WILL ACTUALLY RETURN U A SERIES /CONDITION FOR EACH COLUMN AS TRUE OR FALSE
+This stmt tells whether this condition is met for any of the rows or not
+
+THING-2
+So, the 2nd thing here is 
+df[df.col_name>anyvalue] OR df[df["col_name]>any_value]
+SO THIS STATEMENTN WILL RETURN U THE DATA-FRAME WHICH MATCHES THE SERIES
+
+SO THE THIRD THING HERE is
+condition here is same which u can say series which i talked in thing-1
+df[["col_1","col_2",,..nd so on]][condition]
+
+
+so clubbed solution APPROACH
+Firstly declaration of a variable named condition where I am checking the required condition
+The condition is a series type thing
+seconddly, giving this inside df to check the condition it has
