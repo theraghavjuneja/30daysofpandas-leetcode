@@ -1,0 +1,11 @@
+.isin() method
+ basically this method tells u whether a value inside other or not
+It works like this:
+df["col"]isin([1,2])
+It will tell u df the value of this particular column in df is equal to 1 or 2 or  it isnt
+-- will give u again a series of True or False as an output HERE
+df["col"]isin(df2["another_col"])
+this concept was used in QUESTION
+
+~series will do the reverse of a particular series or series==False will also reverse the series from initial condition{True ko False, False ko True}
+
