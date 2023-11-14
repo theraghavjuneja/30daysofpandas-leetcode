@@ -1,0 +1,4 @@
+okay so this question also has a very similar approach
+We just need to print tweet id
+so tweets[['tweet_id]]
+now this also satisfies a series of condition whose lenght>15 and we applied that condition only
