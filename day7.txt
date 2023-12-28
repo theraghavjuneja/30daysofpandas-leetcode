@@ -1,0 +1,6 @@
+In this question what we need to do is capitalize the first letter of str
+1.) Get the name series
+2.) Since it will be of series type, we need to convert to str
+3.) Now since in str  we can apply in built capitalize method 
+4.) Now I need to sort the values by='user_id'
+5.) Final table is ready
