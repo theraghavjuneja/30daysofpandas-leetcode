@@ -1,0 +1,14 @@
+This code can easily be done with the help of regex
+1.) First of all get the mail_id series 
+2.) Convert to str to apply regex
+3.) Apply .match method
+4. return users[users['mail'].str.match(r'^[A-Za-z][A-Za-z0-9_\.\-]*@leetcode(\?com)?\.com$')]
+     r has been used as raw 
+    ^ means starts with
+    r'^[A-Za-z] This thing initially checks whether the thing is between a to z0{for the first letter}- it is mentioned that the prefix name must start with a letter
+    [A-Za-z0-9_\.\-] THis code checks for the proceeding letters which could be any alphabete or name or certain characters
+    \. is used since . is a special character so meta symbol"\" is used
+    Now * means this can have one or more occurences
+    @leetcode here means after all this has been checked the next occurences should be exactly matching with @leetcode
+    and further characters matched the occurence(s) of .com 
+    a dollar sign means end with 
