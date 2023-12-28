@@ -1,0 +1,4 @@
+here in this question we need to check whether in string any of the words start with DIAB1 or not
+so simply we will aplly boundary check of regex 
+1.) Convert to string
+2.) check whether it contains DIAB1 AS A STARTING ELEMENT OF ANY OF THE STRING words
